@@ -1,26 +1,51 @@
+
 <!DOCTYPE html>
-<html>
-<head><!-- Pinterest Tag-->
-<script>
-!function(e){if(!window.pintrk){window.pintrk = function () {
-window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
-  n=window.pintrk;n.queue=[],n.version="3.0";var
-  t=document.createElement("script");t.async=!0,t.src=e;var
-  r=document.getElementsByTagName("script")[0];
-  r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
-pintrk('load', '2612430986953', {em: ''});
-pintrk('page');
-</script>
-<noscript>
-<img height="1" width="1" style="display:none;" alt=""
-  src="https://ct.pinterest.com/v3/?event=init&tid=2612430986953&pd[em]=<hashed_email_address>&noscript=1" />
-</noscript>
-<!-- end Pinterest Tag -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pinterest Page</title>
+
+    <meta name="p:domain_verify" content="pinterest-site-verification=cb95c6a567d0af37099638df26b49061"/>
+
+    <meta property="og:title" content="My Awesome Guide" />
+    <meta property="og:description" content="Click here to learn my secret Pinterest strategy!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://sanakhan024010-a11y.github.io/My-Pinterest-site-/" />
+
+    <script>
+    !function(e){if(!window.pintrk){window.pintrk = function () {
+    window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+      n=window.pintrk;n.queue=[],n.it=0;var t=document.createElement("script");
+      t.async=!0,t.src=e;var r=document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+    
+    // Replace 'YOUR_13_DIGIT_ID' with your ID from Pinterest Ads Manager
+    pintrk('load', '2612430986953', {em: ''}); 
+    pintrk('page');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none;" alt=""
+      src="https://ct.pinterest.com/v3/?tid=2612430986953_ID&noscript=1" />
+    </noscript>
+
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #f4f4f4; padding: 50px; }
+        .container { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); max-width: 500px; margin: auto; }
+        h1 { color: #e60023; }
+        .btn { display: inline-block; background: #e60023; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; margin-top: 20px; }
+    </style>
 </head>
 <body>
 
-<h1>My Blog Website</h1>
-<p>This is my first website.</p>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <p>Thanks for clicking my Pin. Click the button below to get your free download!</p>
+        
+        <a href="#" class="btn" onclick="pintrk('track', 'signup');">GET THE FREE GUIDE</a>
+    </div>
+
+    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
 </body>
 </html>
